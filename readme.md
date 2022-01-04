@@ -3,7 +3,7 @@
 </h3>
 
 <p align="center">
-  <img src="github/ipad.png" alt="rocketshoes-logo" ></img>
+  <img src="github/ipad.png" alt="rocketshoes-logo" width="42.5%"></img>
 </p>
 
 ## ℹ Descrição
