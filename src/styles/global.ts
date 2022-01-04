@@ -1,7 +1,7 @@
-import { createGlobalStyle } from 'styled-components';
-import 'react-toastify/dist/ReactToastify.css';
+import { createGlobalStyle } from "styled-components";
+import "react-toastify/dist/ReactToastify.css";
 
-import background from '../assets/images/background.svg';
+import background from "../assets/images/background.svg";
 
 export default createGlobalStyle`
   * {
@@ -9,6 +9,18 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+  }
+
+  @media (max-width: 1080px) {
+    html {
+      font-size: 93.75%;
+    }
+  }
+
+  @media (max-width: 720px) {
+    html {
+      font-size: 87.5%;
+    }
   }
 
   body {

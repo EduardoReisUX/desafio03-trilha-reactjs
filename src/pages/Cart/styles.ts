@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { darken, lighten } from 'polished';
+import styled from "styled-components";
+import { darken, lighten } from "polished";
 
 export const Container = styled.div`
   padding: 30px;
@@ -23,7 +23,18 @@ export const Container = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.06, '#7159c1')};
+        background: ${darken(0.06, "#7159c1")};
+      }
+    }
+  }
+  @media (max-width: 720px) {
+    footer {
+      flex-direction: column;
+
+      button {
+        order: 1;
+        margin-top: 1rem;
+        width: 100%;
       }
     }
   }
@@ -84,14 +95,58 @@ export const ProductTable = styled.table`
 
     &:hover {
       svg {
-        color: ${darken(0.06, '#7159c1')};
+        color: ${darken(0.06, "#7159c1")};
       }
     }
 
     &:disabled {
       svg {
-        color: ${lighten(0.25, '#7159c1')};
+        color: ${lighten(0.25, "#7159c1")};
         cursor: not-allowed;
+      }
+    }
+  }
+
+  @media (max-width: 720px) {
+    display: flex;
+
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+      display: block;
+    }
+
+    thead {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+      width: 0;
+    }
+
+    tbody {
+      width: 100%;
+
+      tr {
+        display: grid;
+        place-items: center;
+        border-bottom: 1px solid #333;
+
+        td {
+          padding: 0 0 0.75rem;
+          border: 0;
+          text-align: center;
+
+          strong {
+            font-size: 1.25rem;
+          }
+
+          img {
+            height: auto;
+            width: 100%;
+          }
+        }
       }
     }
   }

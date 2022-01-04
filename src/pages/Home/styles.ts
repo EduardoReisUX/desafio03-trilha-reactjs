@@ -1,10 +1,10 @@
-import styled from 'styled-components';
-import { darken } from 'polished';
+import styled from "styled-components";
+import { darken } from "polished";
 
 export const ProductList = styled.ul`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(272px, 1fr));
+  gap: 1rem;
   list-style: none;
 
   li {
@@ -12,11 +12,18 @@ export const ProductList = styled.ul`
     flex-direction: column;
     background: #fff;
     border-radius: 4px;
-    padding: 20px;
+    padding: 1rem;
 
     img {
       align-self: center;
       max-width: 250px;
+    }
+
+    @media (max-width: 720px) {
+      img {
+        align-self: center;
+        max-width: 200px;
+      }
     }
 
     > strong {
@@ -45,7 +52,7 @@ export const ProductList = styled.ul`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.06, '#7159c1')};
+        background: ${darken(0.06, "#7159c1")};
       }
 
       div {
