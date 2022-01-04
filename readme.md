@@ -1,6 +1,10 @@
-<img src="github/logo.png" alt="rocketshoes-logo" style="display: block; margin: 0 auto;"></img>
+<h3 align="center">
+  <img src="github/logo.svg" alt="rocketshoes-logo" width="200px"></img>
+</h3>
 
-<br/>
+<p align="center">
+  <img src="github/ipad.png" alt="rocketshoes-logo" ></img>
+</p>
 
 ## ℹ Descrição
 
@@ -21,27 +25,42 @@ RocketShoes, parecido com um e-commerce, é um SPA que busca dados do servidor (
 
 ## ⚒ Tecnologias
 
-- React
-- Typescript
-- styled-components
-- react-toastify
-- Axios
-- JSON Server
+- React;
+- Typescript;
+- styled-components;
+- react-toastify;
+- Axios;
+- JSON Server.
 
 ## ⚙ Pré-requisitos
 
 - <a href="https://git-scm.com/" target="_blank">Git</a>
 - <a href="https://yarnpkg.com/" target="_blank">Yarn</a>
-- Editor de código
+- Editor de código.
 
 ## 🖥 Como usar
 
-- `git clone https://github.com/EduardoReisUX/desafio03-trilha-reactjs.git` para clonar este repositório;
-- `cd desafio03-trilha-reactjs`
-- `yarn install` para instalar as dependências;
-- `yarn test` para verificar os testes unitários;
-- `yarn server` para subir um server do json-server;
-- `yarn start` para desenvolvimento;
+**Clone o projeto e acesse a pasta**
+
+```bash
+$ git clone https://github.com/EduardoReisUX/desafio03-trilha-reactjs.git && cd desafio03-trilha-reactjs
+```
+
+**Siga os passos seguintes**
+
+```bash
+# Instale as dependências
+$ yarn
+
+# Verifique os testes unitários
+$ yarn test
+
+# Inicie um servidor do json-server
+$ yarn server
+
+# Rode a aplicação
+$ yarn start
+```
 
 ## 👀 Espiadinha
 
