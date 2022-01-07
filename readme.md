@@ -1,6 +1,14 @@
-<h3 align="center">
+<h1 align="center">
   <img src="github/logo.svg" alt="rocketshoes-logo" width="200px"></img>
-</h3>
+</h1>
+
+<p align="center">
+  <a href="#ℹ-descrição">Descrição</a> •
+  <a href="#-tecnologias">Tecnologias</a> •
+  <a href="#-pré-requisitos">Pré-requisitos</a> •
+  <a href="#-como-usar">Como usar</a> •
+  <a href="#-espiadinha">Espiadinha</a>
+</p>
 
 <p align="center">
   <img src="github/ipad.png" alt="rocketshoes-logo" width="42.5%"></img>
@@ -25,12 +33,12 @@ RocketShoes, parecido com um e-commerce, é um SPA que busca dados do servidor (
 
 ## ⚒ Tecnologias
 
-- React;
-- Typescript;
-- styled-components;
-- react-toastify;
-- Axios;
-- JSON Server.
+- [**React**](https://pt-br.reactjs.org)
+- [**Typescript**](https://www.typescriptlang.org)
+- [**styled-components**](https://styled-components.com)
+- [**react-toastify**](https://fkhadra.github.io/react-toastify/introduction)
+- [**Axios**](https://axios-http.com/)
+- [**JSON Server**](https://github.com/typicode/json-server)
 
 ## ⚙ Pré-requisitos
 
